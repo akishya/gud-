@@ -1,0 +1,28 @@
+{
+  "name": "gud-crunchies-ecommerce",
+  "version": "1.0.0",
+  "description": "Traditional Indian snack e-commerce website",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "ecommerce",
+    "indian-snacks",
+    "traditional-food",
+    "jaggery",
+    "healthy-snacks"
+  ],
+  "author": "Gud Crunchies",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
